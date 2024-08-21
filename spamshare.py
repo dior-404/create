@@ -3,8 +3,8 @@ from math import prod as _fries
 
 
 
-__github__ = 'https://github.com/sintacs'
-__author__ = 'Sintacs Ao'
+__github__ = 'https://github.com/sintxcs'
+__author__ = 'Sintxcs Ao'
 
 __code__ = 'print("Xièxiè!")'
 
