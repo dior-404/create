@@ -4,7 +4,7 @@ from math import prod as _fries
 
 
 __github__ = 'https://github.com/sintxcs'
-__author__ = 'Sintxcs Ao'
+__author__ = 'Sintacs Ao'
 
 __code__ = 'print("Xièxiè!")'
 
