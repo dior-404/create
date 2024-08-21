@@ -147,9 +147,9 @@ class menu_create:
         global kelamin, update, tampil, useragent, uman, passtat, password
         try:os.mkdir('Akun_New')
         except Exception as e :pass
-        kelamin   = input('%s[%s•%s] %sAkun Laki/Perempuan/Random [%sl%s/%sp%s/%sr%s] : '%(M,P,M,P,H,P,H,P,M,P)).lower()
-        update    = input('%s[%s•%s] %sAuto Update Info Akun [%sy%s/%st%s] : '%(M,P,M,P,H,P,M,P)).lower()
-        tampil    = input('%s[%s•%s] %sTampilkan Akun CP [%sy%s/%st%s] : '%(M,P,M,P,M,P,H,P)).lower()
+        kelamin   = input('%s[%s•%s] %sMale/Female/Random Account [%sl%s/%sp%s/%sr%s] : '%(M,P,M,P,H,P,H,P,M,P)).lower()
+        update    = input('%s[%s•%s] %sAuto Update Account Info [%sy%s/%st%s] : '%(M,P,M,P,H,P,M,P)).lower()
+        tampil    = input('%s[%s•%s] %sShow CP Account [%sy%s/%st%s] : '%(M,P,M,P,M,P,H,P)).lower()
         useragent = input('%s[%s•%s] %sUser Agent Vivo/Samsung/Realme/Manual [v/s/r/m] : '%(M,P,M,P)).lower()
         if useragent in ['m','manual','0','00']:
             uman = input(' %s└─ %sUser Agent : %s'%(M,P,M))
@@ -157,7 +157,7 @@ class menu_create:
                 exit('%sIsi Yang Benar!%s'%(M,P))
         else:
             uman = 'Mozilla/5.0 (Linux; Android 12; RMX2170 Build/SKQ1.210216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.101 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/411.1.0.29.112;]'
-        passtat   = input('%s[%s•%s] %sGunakan Password Random/Manual [%sr%s/%sm%s] : '%(M,P,M,P,H,P,M,P)).lower()
+        passtat   = input('%s[%s•%s] %sUse Random/Manual Password [%sr%s/%sm%s] : '%(M,P,M,P,H,P,M,P)).lower()
         if passtat in ['m','manual','b','2','02']:
             password = input(' %s└─ %sPassword : %s'%(M,P,M))
             if len(password) < 6:
